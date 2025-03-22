@@ -1,11 +1,11 @@
 {
   "db_name": "PostgreSQL",
-  "query": "\n            select ttl \n            from underway.task\n            where id = $1\n            ",
+  "query": "\n            select timeout\n            from underway.task\n            where id = $1\n            ",
   "describe": {
     "columns": [
       {
         "ordinal": 0,
-        "name": "ttl",
+        "name": "timeout",
         "type_info": "Interval"
       }
     ],
@@ -18,5 +18,5 @@
       false
     ]
   },
-  "hash": "c1d1c129a916b8b8c4d997667afb43d5ae15b75d543fca14a6c17e41c7200dce"
+  "hash": "43c87ad29a6badd238fdf187f8ac5eb350ddb14eb4e115919aed09b33c9a0a4b"
 }
